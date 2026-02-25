@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "262223409948",
+    "project_id": "rentamobiliario-a92d0",
+    "storage_bucket": "rentamobiliario-a92d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262223409948:android:97e40241c24036cfd680d9",
+        "android_client_info": {
+          "package_name": "com.tuempresa.rentaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjuCoe2DFQGK1YkCP2JopJ4ePIj2IaQEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
