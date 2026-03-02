@@ -1,9 +1,9 @@
 # Código Fuente de Renta Mobiliario App
 
-Este repositorio contiene todo el código fuente de la aplicación 'Renta Mobiliario'.
-A continuación, se presenta cada uno de los archivos que hacen funcionar la app, categorizados y con una explicación clara de lo que hacen, seguido de su código completo.
+Este repositorio contiene todo el código fuente de la aplicación 'Renta Mobiliario', documentado por pantalla y funcionalidad.
+Se incluyen capturas de pantalla de los elementos visuales justo encima de su código XML correspondiente.
 
-## Índice de Archivos
+## Índice de Archivos e Interfaces
 - [AndroidManifest.xml](#AndroidManifestxml)
 - [java/com/tuempresa/rentaapp/adapters/AdminProductoAdapter.kt](#javacomtuempresarentaappadaptersAdminProductoAdapterkt)
 - [java/com/tuempresa/rentaapp/adapters/PedidoAdapter.kt](#javacomtuempresarentaappadaptersPedidoAdapterkt)
@@ -67,11 +67,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -79,11 +79,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -91,11 +91,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -103,11 +103,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -115,11 +115,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -127,11 +127,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -139,11 +139,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -151,11 +151,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -163,11 +163,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -175,11 +175,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -187,11 +187,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -199,11 +199,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -211,11 +211,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -223,11 +223,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -235,11 +235,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -247,11 +247,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -337,11 +337,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -349,11 +349,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -361,11 +361,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -373,11 +373,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -385,11 +385,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -397,11 +397,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -409,11 +409,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -421,11 +421,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -433,11 +433,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -445,11 +445,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -457,11 +457,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -469,11 +469,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -481,11 +481,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -493,11 +493,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -505,11 +505,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -517,11 +517,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -600,11 +600,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -612,11 +612,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -624,11 +624,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -636,11 +636,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -648,11 +648,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -660,11 +660,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -672,11 +672,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -684,11 +684,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -696,11 +696,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -708,11 +708,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -720,11 +720,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -732,11 +732,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -744,11 +744,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -756,11 +756,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -768,11 +768,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -780,11 +780,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -915,11 +915,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -927,11 +927,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -939,11 +939,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -951,11 +951,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -963,11 +963,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -975,11 +975,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -987,11 +987,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -999,11 +999,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1011,11 +1011,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1023,11 +1023,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1035,11 +1035,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1047,11 +1047,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1059,11 +1059,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1071,11 +1071,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1083,11 +1083,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1095,11 +1095,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1202,11 +1202,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1214,11 +1214,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1226,11 +1226,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1238,11 +1238,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1250,11 +1250,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1262,11 +1262,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1274,11 +1274,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1286,11 +1286,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1298,11 +1298,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1310,11 +1310,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1322,11 +1322,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1334,11 +1334,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1346,11 +1346,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1358,11 +1358,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1370,11 +1370,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1382,11 +1382,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1424,11 +1424,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1436,11 +1436,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1448,11 +1448,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1460,11 +1460,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1472,11 +1472,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1484,11 +1484,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1496,11 +1496,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1508,11 +1508,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1520,11 +1520,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1532,11 +1532,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1544,11 +1544,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1556,11 +1556,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1568,11 +1568,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1580,11 +1580,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1592,11 +1592,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1604,11 +1604,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1644,11 +1644,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1656,11 +1656,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1668,11 +1668,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1680,11 +1680,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1692,11 +1692,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1704,11 +1704,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1716,11 +1716,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1728,11 +1728,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1740,11 +1740,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1752,11 +1752,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1764,11 +1764,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1776,11 +1776,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1788,11 +1788,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1800,11 +1800,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1812,11 +1812,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1824,11 +1824,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1888,11 +1888,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1900,11 +1900,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1912,11 +1912,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1924,11 +1924,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1936,11 +1936,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1948,11 +1948,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1960,11 +1960,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1972,11 +1972,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1984,11 +1984,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -1996,11 +1996,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2008,11 +2008,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2020,11 +2020,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2032,11 +2032,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2044,11 +2044,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2056,11 +2056,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2068,11 +2068,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2112,11 +2112,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2124,11 +2124,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2136,11 +2136,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2148,11 +2148,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2160,11 +2160,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2172,11 +2172,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2184,11 +2184,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2196,11 +2196,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2208,11 +2208,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2220,11 +2220,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2232,11 +2232,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2244,11 +2244,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2256,11 +2256,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2268,11 +2268,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2280,11 +2280,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2292,11 +2292,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2498,11 +2498,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2510,11 +2510,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2522,11 +2522,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2534,11 +2534,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2546,11 +2546,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2558,11 +2558,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2570,11 +2570,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2582,11 +2582,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2594,11 +2594,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2606,11 +2606,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2618,11 +2618,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2630,11 +2630,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2642,11 +2642,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2654,11 +2654,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2666,11 +2666,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2678,11 +2678,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2785,11 +2785,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2797,11 +2797,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2809,11 +2809,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2821,11 +2821,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2833,11 +2833,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2845,11 +2845,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2857,11 +2857,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2869,11 +2869,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2881,11 +2881,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2893,11 +2893,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2905,11 +2905,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2917,11 +2917,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2929,11 +2929,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2941,11 +2941,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2953,11 +2953,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -2965,11 +2965,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3180,11 +3180,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3192,11 +3192,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3204,11 +3204,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3216,11 +3216,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3228,11 +3228,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3240,11 +3240,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3252,11 +3252,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3264,11 +3264,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3276,11 +3276,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3288,11 +3288,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3300,11 +3300,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3312,11 +3312,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3324,11 +3324,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3336,11 +3336,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3348,11 +3348,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3360,11 +3360,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3471,11 +3471,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3483,11 +3483,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3495,11 +3495,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3507,11 +3507,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3519,11 +3519,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3531,11 +3531,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3543,11 +3543,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3555,11 +3555,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3567,11 +3567,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3579,11 +3579,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3591,11 +3591,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3603,11 +3603,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3615,11 +3615,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3627,11 +3627,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3639,11 +3639,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3651,11 +3651,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3790,11 +3790,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3802,11 +3802,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3814,11 +3814,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3826,11 +3826,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3838,11 +3838,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3850,11 +3850,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3862,11 +3862,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3874,11 +3874,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3886,11 +3886,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3898,11 +3898,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3910,11 +3910,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3922,11 +3922,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3934,11 +3934,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3946,11 +3946,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3958,11 +3958,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -3970,11 +3970,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4092,11 +4092,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4104,11 +4104,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4116,11 +4116,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4128,11 +4128,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4140,11 +4140,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4152,11 +4152,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4164,11 +4164,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4176,11 +4176,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4188,11 +4188,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4200,11 +4200,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4212,11 +4212,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4224,11 +4224,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4236,11 +4236,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4248,11 +4248,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4260,11 +4260,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4272,11 +4272,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4386,11 +4386,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4398,11 +4398,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4410,11 +4410,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4422,11 +4422,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4434,11 +4434,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4446,11 +4446,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4458,11 +4458,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4470,11 +4470,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4482,11 +4482,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4494,11 +4494,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4506,11 +4506,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4518,11 +4518,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4530,11 +4530,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4542,11 +4542,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4554,11 +4554,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4566,11 +4566,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -4989,11 +4989,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5001,11 +5001,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5013,11 +5013,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5025,11 +5025,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5037,11 +5037,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5049,11 +5049,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5061,11 +5061,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5073,11 +5073,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5085,11 +5085,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5097,11 +5097,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5109,11 +5109,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5121,11 +5121,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5133,11 +5133,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5145,11 +5145,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5157,11 +5157,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5169,11 +5169,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5298,11 +5298,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5310,11 +5310,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5322,11 +5322,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5334,11 +5334,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5346,11 +5346,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5358,11 +5358,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5370,11 +5370,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5382,11 +5382,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5394,11 +5394,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5406,11 +5406,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5418,11 +5418,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5430,11 +5430,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5442,11 +5442,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5454,11 +5454,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5466,11 +5466,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5478,11 +5478,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5588,11 +5588,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5600,11 +5600,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5612,11 +5612,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5624,11 +5624,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5636,11 +5636,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5648,11 +5648,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5660,11 +5660,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5672,11 +5672,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5684,11 +5684,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5696,11 +5696,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5708,11 +5708,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5720,11 +5720,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5732,11 +5732,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5744,11 +5744,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5756,11 +5756,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5768,11 +5768,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5841,11 +5841,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5853,11 +5853,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5865,11 +5865,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5877,11 +5877,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5889,11 +5889,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5901,11 +5901,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5913,11 +5913,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5925,11 +5925,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5937,11 +5937,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5949,11 +5949,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5961,11 +5961,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5973,11 +5973,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5985,11 +5985,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -5997,11 +5997,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6009,11 +6009,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6021,11 +6021,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6222,11 +6222,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6234,11 +6234,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6246,11 +6246,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6258,11 +6258,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6270,11 +6270,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6282,11 +6282,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6294,11 +6294,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6306,11 +6306,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6318,11 +6318,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6330,11 +6330,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6342,11 +6342,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6354,11 +6354,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6366,11 +6366,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6378,11 +6378,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6390,11 +6390,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6402,11 +6402,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6462,11 +6462,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6474,11 +6474,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6486,11 +6486,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6498,11 +6498,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6510,11 +6510,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6522,11 +6522,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6534,11 +6534,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6546,11 +6546,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6558,11 +6558,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6570,11 +6570,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6582,11 +6582,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6594,11 +6594,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6606,11 +6606,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6618,11 +6618,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6630,11 +6630,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6642,11 +6642,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6686,6 +6686,12 @@ Cuando revisas este código, es clave entender que cada método o función tiene
 
 **Propósito general:** Esta carpeta contiene todos los archivos XML de diseño. Son el esqueleto visual de cada pantalla, diálogo y celda de las listas, donde se acomodan los textos, botones, imágenes y listas.
 
+#### Representación Visual (Pantalla)
+
+Aquí puedes observar la interface gráfica generada por este layout. *(Las imágenes pueden ser un placeholder estético que podrás reemplazar)*
+
+<p align='center'><img src='https://placehold.co/400x800/002366/FFFFFF/png?text=Pantalla\nLogin&font=roboto' alt='Mockup de activity_login.xml' width='250'/></p>
+
 #### Detalles del código
 
 En este archivo podemos observar cómo se estructura la funcionalidad que necesita esta vista o modelo de datos. El código fue escrito de manera que fuera fácil de leer, mantener y escalar si la app sigue creciendo.
@@ -6696,11 +6702,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6708,11 +6714,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6720,11 +6726,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6732,11 +6738,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6744,11 +6750,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6756,11 +6762,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6768,11 +6774,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6780,11 +6786,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6792,11 +6798,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6804,11 +6810,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6816,11 +6822,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6828,11 +6834,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6840,11 +6846,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6852,11 +6858,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6864,11 +6870,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6876,11 +6882,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6954,11 +6960,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6966,11 +6972,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6978,11 +6984,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -6990,11 +6996,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7002,11 +7008,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7014,11 +7020,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7026,11 +7032,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7038,11 +7044,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7050,11 +7056,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7062,11 +7068,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7074,11 +7080,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7086,11 +7092,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7098,11 +7104,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7110,11 +7116,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7122,11 +7128,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7134,11 +7140,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7177,6 +7183,12 @@ Cuando revisas este código, es clave entender que cada método o función tiene
 
 **Propósito general:** Esta carpeta contiene todos los archivos XML de diseño. Son el esqueleto visual de cada pantalla, diálogo y celda de las listas, donde se acomodan los textos, botones, imágenes y listas.
 
+#### Representación Visual (Pantalla)
+
+Aquí puedes observar la interface gráfica generada por este layout. *(Las imágenes pueden ser un placeholder estético que podrás reemplazar)*
+
+<p align='center'><img src='https://placehold.co/400x800/002366/FFFFFF/png?text=Pantalla\nRegistro&font=roboto' alt='Mockup de activity_registro.xml' width='250'/></p>
+
 #### Detalles del código
 
 En este archivo podemos observar cómo se estructura la funcionalidad que necesita esta vista o modelo de datos. El código fue escrito de manera que fuera fácil de leer, mantener y escalar si la app sigue creciendo.
@@ -7187,11 +7199,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7199,11 +7211,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7211,11 +7223,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7223,11 +7235,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7235,11 +7247,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7247,11 +7259,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7259,11 +7271,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7271,11 +7283,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7283,11 +7295,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7295,11 +7307,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7307,11 +7319,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7319,11 +7331,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7331,11 +7343,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7343,11 +7355,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7355,11 +7367,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7367,11 +7379,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7493,11 +7505,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7505,11 +7517,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7517,11 +7529,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7529,11 +7541,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7541,11 +7553,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7553,11 +7565,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7565,11 +7577,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7577,11 +7589,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7589,11 +7601,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7601,11 +7613,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7613,11 +7625,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7625,11 +7637,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7637,11 +7649,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7649,11 +7661,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7661,11 +7673,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7673,11 +7685,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7769,6 +7781,12 @@ Cuando revisas este código, es clave entender que cada método o función tiene
 
 **Propósito general:** Esta carpeta contiene todos los archivos XML de diseño. Son el esqueleto visual de cada pantalla, diálogo y celda de las listas, donde se acomodan los textos, botones, imágenes y listas.
 
+#### Representación Visual (Pantalla)
+
+Aquí puedes observar la interface gráfica generada por este layout. *(Las imágenes pueden ser un placeholder estético que podrás reemplazar)*
+
+<p align='center'><img src='https://placehold.co/400x800/002366/FFFFFF/png?text=Admin\nInventario&font=roboto' alt='Mockup de fragment_admin_inventario.xml' width='250'/></p>
+
 #### Detalles del código
 
 En este archivo podemos observar cómo se estructura la funcionalidad que necesita esta vista o modelo de datos. El código fue escrito de manera que fuera fácil de leer, mantener y escalar si la app sigue creciendo.
@@ -7779,11 +7797,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7791,11 +7809,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7803,11 +7821,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7815,11 +7833,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7827,11 +7845,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7839,11 +7857,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7851,11 +7869,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7863,11 +7881,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7875,11 +7893,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7887,11 +7905,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7899,11 +7917,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7911,11 +7929,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7923,11 +7941,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7935,11 +7953,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7947,11 +7965,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -7959,11 +7977,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8023,6 +8041,12 @@ Cuando revisas este código, es clave entender que cada método o función tiene
 
 **Propósito general:** Esta carpeta contiene todos los archivos XML de diseño. Son el esqueleto visual de cada pantalla, diálogo y celda de las listas, donde se acomodan los textos, botones, imágenes y listas.
 
+#### Representación Visual (Pantalla)
+
+Aquí puedes observar la interface gráfica generada por este layout. *(Las imágenes pueden ser un placeholder estético que podrás reemplazar)*
+
+<p align='center'><img src='https://placehold.co/400x800/002366/FFFFFF/png?text=Admin\nPedidos&font=roboto' alt='Mockup de fragment_admin_pedidos.xml' width='250'/></p>
+
 #### Detalles del código
 
 En este archivo podemos observar cómo se estructura la funcionalidad que necesita esta vista o modelo de datos. El código fue escrito de manera que fuera fácil de leer, mantener y escalar si la app sigue creciendo.
@@ -8033,11 +8057,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8045,11 +8069,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8057,11 +8081,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8069,11 +8093,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8081,11 +8105,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8093,11 +8117,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8105,11 +8129,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8117,11 +8141,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8129,11 +8153,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8141,11 +8165,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8153,11 +8177,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8165,11 +8189,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8177,11 +8201,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8189,11 +8213,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8201,11 +8225,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8213,11 +8237,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8260,6 +8284,12 @@ Cuando revisas este código, es clave entender que cada método o función tiene
 
 **Propósito general:** Esta carpeta contiene todos los archivos XML de diseño. Son el esqueleto visual de cada pantalla, diálogo y celda de las listas, donde se acomodan los textos, botones, imágenes y listas.
 
+#### Representación Visual (Pantalla)
+
+Aquí puedes observar la interface gráfica generada por este layout. *(Las imágenes pueden ser un placeholder estético que podrás reemplazar)*
+
+<p align='center'><img src='https://placehold.co/400x800/002366/FFFFFF/png?text=Catálogo\nMobiliario&font=roboto' alt='Mockup de fragment_catalogo.xml' width='250'/></p>
+
 #### Detalles del código
 
 En este archivo podemos observar cómo se estructura la funcionalidad que necesita esta vista o modelo de datos. El código fue escrito de manera que fuera fácil de leer, mantener y escalar si la app sigue creciendo.
@@ -8270,11 +8300,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8282,11 +8312,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8294,11 +8324,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8306,11 +8336,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8318,11 +8348,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8330,11 +8360,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8342,11 +8372,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8354,11 +8384,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8366,11 +8396,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8378,11 +8408,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8390,11 +8420,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8402,11 +8432,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8414,11 +8444,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8426,11 +8456,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8438,11 +8468,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8450,11 +8480,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8490,6 +8520,12 @@ Cuando revisas este código, es clave entender que cada método o función tiene
 
 **Propósito general:** Esta carpeta contiene todos los archivos XML de diseño. Son el esqueleto visual de cada pantalla, diálogo y celda de las listas, donde se acomodan los textos, botones, imágenes y listas.
 
+#### Representación Visual (Pantalla)
+
+Aquí puedes observar la interface gráfica generada por este layout. *(Las imágenes pueden ser un placeholder estético que podrás reemplazar)*
+
+<p align='center'><img src='https://placehold.co/400x800/002366/FFFFFF/png?text=Confirmar\nPedido&font=roboto' alt='Mockup de fragment_confirmacion.xml' width='250'/></p>
+
 #### Detalles del código
 
 En este archivo podemos observar cómo se estructura la funcionalidad que necesita esta vista o modelo de datos. El código fue escrito de manera que fuera fácil de leer, mantener y escalar si la app sigue creciendo.
@@ -8500,11 +8536,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8512,11 +8548,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8524,11 +8560,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8536,11 +8572,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8548,11 +8584,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8560,11 +8596,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8572,11 +8608,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8584,11 +8620,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8596,11 +8632,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8608,11 +8644,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8620,11 +8656,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8632,11 +8668,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8644,11 +8680,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8656,11 +8692,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8668,11 +8704,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8680,11 +8716,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8846,6 +8882,12 @@ Cuando revisas este código, es clave entender que cada método o función tiene
 
 **Propósito general:** Esta carpeta contiene todos los archivos XML de diseño. Son el esqueleto visual de cada pantalla, diálogo y celda de las listas, donde se acomodan los textos, botones, imágenes y listas.
 
+#### Representación Visual (Pantalla)
+
+Aquí puedes observar la interface gráfica generada por este layout. *(Las imágenes pueden ser un placeholder estético que podrás reemplazar)*
+
+<p align='center'><img src='https://placehold.co/400x800/002366/FFFFFF/png?text=Mi\nPerfil&font=roboto' alt='Mockup de fragment_perfil.xml' width='250'/></p>
+
 #### Detalles del código
 
 En este archivo podemos observar cómo se estructura la funcionalidad que necesita esta vista o modelo de datos. El código fue escrito de manera que fuera fácil de leer, mantener y escalar si la app sigue creciendo.
@@ -8856,11 +8898,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8868,11 +8910,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8880,11 +8922,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8892,11 +8934,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8904,11 +8946,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8916,11 +8958,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8928,11 +8970,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8940,11 +8982,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8952,11 +8994,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8964,11 +9006,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8976,11 +9018,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -8988,11 +9030,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9000,11 +9042,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9012,11 +9054,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9024,11 +9066,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9036,11 +9078,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9140,6 +9182,12 @@ Cuando revisas este código, es clave entender que cada método o función tiene
 
 **Propósito general:** Esta carpeta contiene todos los archivos XML de diseño. Son el esqueleto visual de cada pantalla, diálogo y celda de las listas, donde se acomodan los textos, botones, imágenes y listas.
 
+#### Representación Visual (Pantalla)
+
+Aquí puedes observar la interface gráfica generada por este layout. *(Las imágenes pueden ser un placeholder estético que podrás reemplazar)*
+
+<p align='center'><img src='https://placehold.co/400x800/002366/FFFFFF/png?text=Mis\nRentas&font=roboto' alt='Mockup de fragment_rentas.xml' width='250'/></p>
+
 #### Detalles del código
 
 En este archivo podemos observar cómo se estructura la funcionalidad que necesita esta vista o modelo de datos. El código fue escrito de manera que fuera fácil de leer, mantener y escalar si la app sigue creciendo.
@@ -9150,11 +9198,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9162,11 +9210,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9174,11 +9222,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9186,11 +9234,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9198,11 +9246,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9210,11 +9258,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9222,11 +9270,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9234,11 +9282,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9246,11 +9294,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9258,11 +9306,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9270,11 +9318,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9282,11 +9330,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9294,11 +9342,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9306,11 +9354,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9318,11 +9366,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9330,11 +9378,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9386,11 +9434,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9398,11 +9446,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9410,11 +9458,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9422,11 +9470,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9434,11 +9482,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9446,11 +9494,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9458,11 +9506,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9470,11 +9518,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9482,11 +9530,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9494,11 +9542,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9506,11 +9554,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9518,11 +9566,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9530,11 +9578,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9542,11 +9590,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9554,11 +9602,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9566,11 +9614,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9685,11 +9733,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9697,11 +9745,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9709,11 +9757,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9721,11 +9769,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9733,11 +9781,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9745,11 +9793,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9757,11 +9805,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9769,11 +9817,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9781,11 +9829,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9793,11 +9841,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9805,11 +9853,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9817,11 +9865,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9829,11 +9877,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9841,11 +9889,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9853,11 +9901,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -9865,11 +9913,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10001,11 +10049,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10013,11 +10061,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10025,11 +10073,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10037,11 +10085,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10049,11 +10097,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10061,11 +10109,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10073,11 +10121,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10085,11 +10133,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10097,11 +10145,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10109,11 +10157,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10121,11 +10169,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10133,11 +10181,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10145,11 +10193,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10157,11 +10205,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10169,11 +10217,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10181,11 +10229,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10318,11 +10366,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10330,11 +10378,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10342,11 +10390,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10354,11 +10402,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10366,11 +10414,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10378,11 +10426,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10390,11 +10438,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10402,11 +10450,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10414,11 +10462,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10426,11 +10474,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10438,11 +10486,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10450,11 +10498,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10462,11 +10510,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10474,11 +10522,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10486,11 +10534,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10498,11 +10546,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10543,11 +10591,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10555,11 +10603,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10567,11 +10615,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10579,11 +10627,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10591,11 +10639,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10603,11 +10651,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10615,11 +10663,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10627,11 +10675,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10639,11 +10687,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10651,11 +10699,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10663,11 +10711,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10675,11 +10723,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10687,11 +10735,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10699,11 +10747,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10711,11 +10759,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10723,11 +10771,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10769,11 +10817,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10781,11 +10829,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10793,11 +10841,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10805,11 +10853,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10817,11 +10865,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10829,11 +10877,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10841,11 +10889,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10853,11 +10901,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10865,11 +10913,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10877,11 +10925,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10889,11 +10937,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10901,11 +10949,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10913,11 +10961,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10925,11 +10973,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10937,11 +10985,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10949,11 +10997,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10985,11 +11033,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -10997,11 +11045,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11009,11 +11057,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11021,11 +11069,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11033,11 +11081,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11045,11 +11093,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11057,11 +11105,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11069,11 +11117,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11081,11 +11129,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11093,11 +11141,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11105,11 +11153,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11117,11 +11165,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11129,11 +11177,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11141,11 +11189,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11153,11 +11201,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11165,11 +11213,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11201,11 +11249,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11213,11 +11261,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11225,11 +11273,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11237,11 +11285,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11249,11 +11297,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11261,11 +11309,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11273,11 +11321,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11285,11 +11333,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11297,11 +11345,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11309,11 +11357,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11321,11 +11369,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11333,11 +11381,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11345,11 +11393,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11357,11 +11405,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11369,11 +11417,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11381,11 +11429,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11418,11 +11466,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11430,11 +11478,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11442,11 +11490,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11454,11 +11502,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11466,11 +11514,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11478,11 +11526,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11490,11 +11538,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11502,11 +11550,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11514,11 +11562,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11526,11 +11574,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11538,11 +11586,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11550,11 +11598,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11562,11 +11610,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11574,11 +11622,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11586,11 +11634,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11598,11 +11646,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11636,11 +11684,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11648,11 +11696,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11660,11 +11708,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11672,11 +11720,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11684,11 +11732,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11696,11 +11744,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11708,11 +11756,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11720,11 +11768,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11732,11 +11780,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11744,11 +11792,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11756,11 +11804,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11768,11 +11816,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11780,11 +11828,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11792,11 +11840,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11804,11 +11852,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11816,11 +11864,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11851,11 +11899,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11863,11 +11911,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11875,11 +11923,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11887,11 +11935,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11899,11 +11947,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11911,11 +11959,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11923,11 +11971,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11935,11 +11983,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11947,11 +11995,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11959,11 +12007,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11971,11 +12019,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11983,11 +12031,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -11995,11 +12043,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12007,11 +12055,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12019,11 +12067,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12031,11 +12079,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12070,11 +12118,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12082,11 +12130,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12094,11 +12142,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12106,11 +12154,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12118,11 +12166,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12130,11 +12178,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12142,11 +12190,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12154,11 +12202,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12166,11 +12214,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12178,11 +12226,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12190,11 +12238,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12202,11 +12250,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12214,11 +12262,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12226,11 +12274,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12238,11 +12286,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12250,11 +12298,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12293,11 +12341,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12305,11 +12353,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12317,11 +12365,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12329,11 +12377,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12341,11 +12389,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12353,11 +12401,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12365,11 +12413,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12377,11 +12425,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12389,11 +12437,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12401,11 +12449,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12413,11 +12461,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12425,11 +12473,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12437,11 +12485,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12449,11 +12497,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12461,11 +12509,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
@@ -12473,11 +12521,11 @@ Separar la lógica en diferentes archivos nos ayuda a que, si hay un error, sepa
 
 La comunicación con la base de datos o la interfaz se hace buscando que la app sea rápida y no se quede pegada mientras carga.
 
-También se tomaron en cuenta las consideraciones de Android más recientes para que evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
+También se tomaron en cuenta las consideraciones de Android más recientes para evitar inconsistencias al momento de correr en versiones viejas o nuevas del sistema.
 
 Al conectar las variables o las vistas, se busca mantener el código organizado, declarando las cosas al principio y usándolas más abajo en el flujo normal.
 
-El orden de las llamadas (callbacks) y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
+El orden de las llamadas y cómo fluye la información permite que la experiencia sea muy fluida para el usuario final.
 
 Cuando revisas este código, es clave entender que cada método o función tiene una tarea en específico asignada.
 
