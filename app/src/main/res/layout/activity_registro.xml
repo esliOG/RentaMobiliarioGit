@@ -35,6 +35,26 @@
         android:layout_marginBottom="12dp"/>
 
     <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Correo Electrónico"
+        android:background="@android:drawable/editbox_background"
+        android:paddingLeft="15dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Contraseña"
+        android:background="@android:drawable/editbox_background"
+        android:paddingLeft="15dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
         android:id="@+id/etTelefono"
         android:layout_width="match_parent"
         android:layout_height="55dp"
@@ -43,6 +63,18 @@
         android:paddingLeft="15dp"
         android:inputType="phone"
         android:layout_marginBottom="24dp"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchAdminRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Registrar como Administrador"
+        android:textColor="#002366"
+        android:textSize="14sp"
+        app:thumbTint="#002366"
+        app:trackTint="#A0B2D8"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
 
     <Button
         android:id="@+id/btnRegistrar"

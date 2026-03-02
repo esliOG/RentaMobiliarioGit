@@ -4,8 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    app:cardCornerRadius="8dp"
-    app:cardElevation="4dp">
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="#9BA8C7">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,55 +19,89 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nombre del Producto"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textColor="#0D0D0D"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
 
         <TextView
             android:id="@+id/tvDescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Descripción"
-            android:textColor="#666666" />
+            android:textColor="#333333"
+            android:textSize="13sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="4dp"/>
 
         <TextView
             android:id="@+id/tvPrecio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:text="$0.00"
-            android:textColor="#002366"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textColor="#003CFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvStockDisponible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disponibles: 0"
+            android:textSize="12sp"
+            android:textColor="#4CAF50"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="2dp"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnMenos"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:backgroundTint="#000000"
-                android:text="-" />
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:text="-"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:padding="0dp"
+                app:backgroundTint="#1A1A1A"
+                app:cornerRadius="22dp"/>
 
             <TextView
                 android:id="@+id/tvCantidad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="12dp"
+                android:padding="14dp"
                 android:text="0"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textColor="#0D0D0D"
+                android:textStyle="bold"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnMas"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:backgroundTint="#002366"
-                android:text="+" />
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:text="+"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:padding="0dp"
+                app:backgroundTint="#003CFF"
+                app:cornerRadius="22dp"/>
+
         </LinearLayout>
     </LinearLayout>
+
 </androidx.cardview.widget.CardView>

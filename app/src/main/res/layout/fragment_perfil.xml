@@ -13,25 +13,64 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@android:drawable/ic_menu_gallery"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        app:tint="#002366" /> <TextView
-    android:id="@+id/tvNombrePerfil"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Cargando nombre..."
-    android:textSize="24sp"
-    android:textStyle="bold"
-    android:textColor="#333333"/>
+        app:tint="#002366" /> 
 
     <TextView
-        android:id="@+id/tvTelefonoPerfil"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Teléfono"
-        android:textSize="16sp"
-        android:textColor="#666666"
-        android:layout_marginBottom="40dp"/>
+        android:text="Mi Perfil"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNombrePerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre Completo"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etTelefonoPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:inputType="phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmailPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo Electrónico"
+            android:enabled="false"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnGuardarPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR CAMBIOS"
+        android:backgroundTint="#002366"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnCerrarSesion"
@@ -40,4 +79,6 @@
         android:text="CERRAR SESIÓN"
         android:backgroundTint="#FF4444"
         android:textColor="#FFFFFF"
-        android:layout_marginTop="50dp"/> </LinearLayout>
+        android:layout_marginTop="24dp"/> 
+
+</LinearLayout>

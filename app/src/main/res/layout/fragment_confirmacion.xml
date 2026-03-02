@@ -1,14 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConfirmacionFragment">
+    android:background="#F8F9FA">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
 
-</FrameLayout>
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resumen de Renta"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#002366"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"/>
+
+        <!-- Fechas -->
+        <TextView
+            android:id="@+id/tvFechasError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📅 Selecciona tus fechas de renta:"
+            android:textColor="#444444"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnFechaEntrega"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Entrega"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btnFechaDevolucion"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Devolución"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Artículos -->
+        <TextView
+            android:id="@+id/tvResumenArticulos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artículos:"
+            android:textSize="16sp"
+            android:minLines="2"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Total -->
+        <TextView
+            android:id="@+id/tvTotalConfirmacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: $0.00"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#002366"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- SECCIÓN MÉTODO DE PAGO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💳 Método de Pago"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#002366"
+            android:layout_marginBottom="10dp"/>
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggleMetodoPago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:singleSelection="true"
+            app:selectionRequired="true">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPagoEfectivo"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="💵 Efectivo"
+                android:textSize="13sp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPagoTransferencia"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="🏦 Transferencia"
+                android:textSize="13sp"/>
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        <!-- Botón WhatsApp -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFinalizarRenta"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="✅  CONFIRMAR Y ENVIAR A WHATSAPP"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            app:backgroundTint="#25D366"
+            app:cornerRadius="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

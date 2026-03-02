@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:text="Mis Rentas"
+        android:text="Gestión de Pedidos"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="#002366"
@@ -17,7 +17,7 @@
         android:elevation="4dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvMisRentas"
+        android:id="@+id/rvAdminPedidos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="8dp"

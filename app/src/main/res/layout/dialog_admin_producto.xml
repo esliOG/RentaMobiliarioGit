@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvDialogTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Producto"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#002366"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etDialogNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Mobiliario"
+        android:inputType="textCapSentences"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/etDialogDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:gravity="top|start"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/etDialogPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio de Renta ($)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/etDialogStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Existencias Totales"
+        android:inputType="number"
+        android:layout_marginBottom="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnDialogCancelar"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textColor="#666666" />
+
+        <Button
+            android:id="@+id/btnDialogGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:backgroundTint="#002366"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
